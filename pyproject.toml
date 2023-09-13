@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tinyml"
+version = "0.1.0"
+description = "ML algorithms from scratch"
+authors = ["xevgney <e.tskhovrebov@pm.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.25.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
